@@ -1,0 +1,27 @@
+name: web5_flutter
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+publish_to: none
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  keymaster:
+    git:
+      url: https://github.com/StonePack/keymaster.git
+      ref: v0.0.1
+  web5:
+    git:
+      url: https://github.com/TBD54566975/web5-dart.git
+      ref: main
+      path: packages/web5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
